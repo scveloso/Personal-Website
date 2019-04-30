@@ -13,64 +13,38 @@ const Content = styled.div`
   padding: 1.45rem 1.0875rem;
 `
 
-const Date = styled.h5`
-  display: inline;
-  color: #bbb;
-  margin-bottom: 10px;
-`
-
-const MarkerHeader = styled.h3`
-  display: inline;
-  border-radius: 1em 0 1em 0;
-  margin-bottom: 10px;
-`
-
-const InlineBlockDiv = styled.div`
-    display: inline-block;
-`
-
-const InlineBlockRightDiv = styled.div`
-    display: inline-block;
-    margin-left: 10px;
-`
-
-const FloatLeftDiv = styled.div`
-    display: inline-block;
-`
-
-const HeaderTextDiv = styled.div`
-    margin-left: 10px;
-    display: inline-block;
-`
-
-const Logo = styled.img`
-    width: 50px;
-    height: 50px;
-`
-
-const ItemHeaderDiv = styled.div`
-    margin-bottom: 10px;
-`
-
 const Experience = () => (
     <Layout>
-        <SEO title="Experience" keywords={[`gatsby`, `application`, `react`]} />
+        <SEO title="Experience" />
         <Content>
             <h1>Experience</h1>
             <ExperienceItem title={'Software Developer Intern'}
-                            date={'May 2019 - Sep 2019'}
+                            date={'May 2019 - Aug 2019'}
                             logoImgPath={'netapp-logo.png'}
-                            company={'NetApp'}/>
+                            company={'NetApp'}
+                            blurb={'This summer, I\'ll be working with NetApp\'s StorageGRID team. '}
+            />
 
             <ExperienceItem title={'Software Developer Co-op'}
                             date={'May 2018 - Dec 2018'}
                             logoImgPath={'copperleaf-logo.png'}
-                            company={'Copperleaf'}/>
+                            company={'Copperleaf'}
+                            blurb={'Worked as a Software Developer on Copperleaf\'s Predictive Analytics team where I developed application backend in C#, crafted database changes in SQL, and designed application frontend in TypeScript.'}
+            />
 
             <ExperienceItem title={'Junior Support Engineer'}
                             date={'Jan 2017 - Aug 2017'}
                             logoImgPath={'samsung-logo.png'}
-                            company={'Samsung'}/>
+                            company={'Samsung'}
+                            blurb={'As a Support Engineer, I collaborated with developers to troubleshoot and debug client issues, helped improve workflows with Android apps and created Android apps to showcase Samsung MDM SDKs.'}
+            />
+
+            <ExperienceItem title={'CS Teaching Assistant'}
+                            date={'Sep 2016 - Dec 2016'}
+                            logoImgPath={'ubc-logo.png'}
+                            company={'UBC'}
+                            blurb={'Assisted in teaching a second year Computer Science course: Software Construction. Held office hours, programming labs and taught students about Object-oriented programming in Java. '}
+            />
         </Content>
     </Layout>
 )
