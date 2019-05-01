@@ -6,6 +6,7 @@ import ExperienceItem from "../components/experience-item"
 import { Link } from "gatsby"
 import { css } from "@emotion/core"
 import styled from "@emotion/styled"
+import Divider from '@material-ui/core/Divider';
 
 const Content = styled.div`
   margin: 0 auto;
@@ -18,12 +19,14 @@ const Experience = () => (
         <SEO title="Experience" />
         <Content>
             <h1>Experience</h1>
+            <Divider/>
             <ExperienceItem title={'Software Developer Intern'}
                             date={'May 2019 - Aug 2019'}
                             logoImgPath={'netapp-logo.png'}
                             company={'NetApp'}
                             blurb={'This summer, I\'ll be working with NetApp\'s StorageGRID team. '}
             />
+            <Divider/>
 
             <ExperienceItem title={'Software Developer Co-op'}
                             date={'May 2018 - Dec 2018'}
@@ -31,6 +34,7 @@ const Experience = () => (
                             company={'Copperleaf'}
                             blurb={'Worked as a Software Developer on Copperleaf\'s Predictive Analytics team where I developed application backend in C#, crafted database changes in SQL, and designed application frontend in TypeScript.'}
             />
+            <Divider/>
 
             <ExperienceItem title={'Junior Support Engineer'}
                             date={'Jan 2017 - Aug 2017'}
@@ -38,6 +42,7 @@ const Experience = () => (
                             company={'Samsung'}
                             blurb={'As a Support Engineer, I collaborated with developers to troubleshoot and debug client issues, helped improve workflows with Android apps and created Android apps to showcase Samsung MDM SDKs.'}
             />
+            <Divider/>
 
             <ExperienceItem title={'CS Teaching Assistant'}
                             date={'Sep 2016 - Dec 2016'}

@@ -38,7 +38,7 @@ const Logo = styled.img`
 `
 
 const ExperienceItemDiv = styled.div`
-    padding-bottom: 20px;
+    padding-top: 10px;
 `
 
 class ExperienceItem extends React.Component {
