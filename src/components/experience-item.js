@@ -82,7 +82,6 @@ ExperienceItem.propTypes = {
     logoImgPath: PropTypes.string.isRequired,
     company: PropTypes.string.isRequired,
     blurb: PropTypes.string,
-    bullets: PropTypes.array
 }
 
 export default ExperienceItem
