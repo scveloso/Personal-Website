@@ -32,35 +32,26 @@ const HeaderTextDiv = styled.div`
     display: inline-block;
 `
 
-const HeaderDiv = styled.div`
-    margin-bottom: -20px;
-`
-
-const blurb = styled.p`
-    text-decoration: none;
-    margin-bottom: 10px;
-`
-
 const Logo = styled.img`
     width: 50px;
     height: 50px;
 `
 
 const ExperienceItemDiv = styled.div`
-    padding-bottom: 10px;
+    padding-bottom: 20px;
 `
 
 class ExperienceItem extends React.Component {
 
     render() {
-        const { title, date, logoImgPath, company, blurb, bullets } = this.props;
+        const { title, date, logoImgPath, company, blurb } = this.props;
 
         return (
             <ExperienceItemDiv>
-                <HeaderDiv>
+                <div>
                     <FloatLeftDiv>
                         <p>
-                            <Logo src={logoImgPath}/>
+                            <Logo src={logoImgPath} className={'fadeshow'}/>
                         </p>
                     </FloatLeftDiv>
                     <HeaderTextDiv>
@@ -76,15 +67,10 @@ class ExperienceItem extends React.Component {
                             <b>{company}</b>
                         </div>
                     </HeaderTextDiv>
-                </HeaderDiv>
-                <div>
-                    <p>{blurb}</p>
-                    {/*<ul>*/}
-                        {/*{bullets.map((bullet) => {*/}
-                            {/*return <li>{bullet}</li>*/}
-                        {/*})}*/}
-                    {/*</ul>*/}
                 </div>
+                <FloatLeftDiv>
+                    <p>{blurb}</p>
+                </FloatLeftDiv>
             </ExperienceItemDiv>
         )
     }

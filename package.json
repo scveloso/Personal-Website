@@ -1,9 +1,9 @@
 {
-  "name": "gatsby-starter-julia",
+  "name": "personal-website-sam-veloso",
   "private": true,
-  "description": "A minimal blog template built with Gatsby",
+  "description": "A personal website made by Sam Veloso",
   "version": "0.1.0",
-  "author": "Niklas Metje <hi@niklasmtj.de>",
+  "author": "Sam Veloso <samtveloso@gmail.com>",
   "dependencies": {
     "@emotion/core": "^10.0.9",
     "@emotion/styled": "^10.0.9",
