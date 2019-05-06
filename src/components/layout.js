@@ -12,6 +12,8 @@ import styled from "@emotion/styled"
 
 import Header from "./header"
 import "./layout.css"
+import "../../node_modules/react-image-gallery/styles/css/image-gallery.css";
+
 
 const Content = styled.div`
   margin: 0 auto;
