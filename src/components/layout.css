@@ -604,12 +604,12 @@ pre tt:after {
 }
 @media only screen and (max-width: 480px) {
   html {
-    font-size: 100%;
+    font-size: 30%;
   }
 }
 
-@media only screen and (max-width: 610px) {
-  .fadeshow {
-    display: none;
+@media only screen and (max-width: 620px) {
+  html {
+    font-size: 50%;
   }
 }

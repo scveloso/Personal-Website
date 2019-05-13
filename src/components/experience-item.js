@@ -5,31 +5,29 @@ import styled from "@emotion/styled";
 const Date = styled.h5`
   display: inline;
   color: #bbb;
-  margin-bottom: 10px;
 `
 
-const MarkerHeader = styled.h3`
+const ExperienceItemTitle = styled.h3`
   display: inline;
-  border-radius: 1em 0 1em 0;
-  margin-bottom: 10px;
 `
 
 const InlineBlockDiv = styled.div`
     display: inline-block;
 `
 
-const InlineBlockRightDiv = styled.div`
+const DateDiv = styled.div`
     display: inline-block;
     margin-left: 10px;
 `
 
-const FloatLeftDiv = styled.div`
+const LogoDiv = styled.div`
     display: inline-block;
+    margin-right: 10px;
 `
 
 const HeaderTextDiv = styled.div`
-    margin-left: 10px;
     display: inline-block;
+    margin: auto 0;
 `
 
 const Logo = styled.img`
@@ -49,28 +47,28 @@ class ExperienceItem extends React.Component {
         return (
             <ExperienceItemDiv>
                 <div>
-                    <FloatLeftDiv>
+                    <LogoDiv>
                         <p>
-                            <Logo src={logoImgPath} className={'fadeshow'}/>
+                            <Logo src={logoImgPath} className={'imgsmall'}/>
                         </p>
-                    </FloatLeftDiv>
+                    </LogoDiv>
                     <HeaderTextDiv>
                         <div>
                             <InlineBlockDiv>
-                                <MarkerHeader>{title}</MarkerHeader>
+                                <ExperienceItemTitle>{title}</ExperienceItemTitle>
                             </InlineBlockDiv>
-                            <InlineBlockRightDiv>
+                            <DateDiv>
                                 <Date>{date}</Date>
-                            </InlineBlockRightDiv>
+                            </DateDiv>
                         </div>
                         <div>
                             <b>{company}</b>
                         </div>
                     </HeaderTextDiv>
                 </div>
-                <FloatLeftDiv>
+                <InlineBlockDiv>
                     <p>{blurb}</p>
-                </FloatLeftDiv>
+                </InlineBlockDiv>
             </ExperienceItemDiv>
         )
     }
