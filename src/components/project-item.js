@@ -3,7 +3,6 @@ import PropTypes from "prop-types"
 import styled from "@emotion/styled";
 import withStyles from '@material-ui/core/styles/withStyles';
 import Paper from '@material-ui/core/Paper';
-import { Link } from "gatsby"
 
 const styles = theme => ({
     projectPaper: {
@@ -39,45 +38,6 @@ const styles = theme => ({
         width: '100%',
     }
 });
-
-const Date = styled.h5`
-  display: inline;
-  color: #bbb;
-  margin-bottom: 10px;
-`
-
-const MarkerHeader = styled.h3`
-  display: inline;
-  border-radius: 1em 0 1em 0;
-  margin-bottom: 10px;
-`
-
-const InlineBlockDiv = styled.div`
-    display: inline-block;
-`
-
-const InlineBlockRightDiv = styled.div`
-    display: inline-block;
-    margin-left: 10px;
-`
-
-const FloatLeftDiv = styled.div`
-    display: inline-block;
-`
-
-const HeaderTextDiv = styled.div`
-    margin-left: 10px;
-    display: inline-block;
-`
-
-const Logo = styled.img`
-    width: 50px;
-    height: 50px;
-`
-
-const ExperienceItemDiv = styled.div`
-    padding-top: 10px;
-`
 
 const ProjectImage = styled.img`
     border: 1px solid lightgray;

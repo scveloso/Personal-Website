@@ -3,8 +3,6 @@ import React from "react"
 import Layout from "../components/layout"
 import SEO from "../components/seo"
 import ExperienceItem from "../components/experience-item"
-import { Link } from "gatsby"
-import { css } from "@emotion/core"
 import styled from "@emotion/styled"
 import Divider from '@material-ui/core/Divider';
 
