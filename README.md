@@ -2,4 +2,4 @@
   Personal Website
 </h1>
 
-Work in progress personal website using React and Gatsby.
+My personal [website](https://samveloso.com) using React for the frontend, Gatsby for site generation and Netlify for hosting.

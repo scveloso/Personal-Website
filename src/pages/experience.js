@@ -17,12 +17,11 @@ const Experience = () => (
         <SEO title="Experience" />
         <Content>
             <h1>Experience</h1>
-            <Divider/>
-            <ExperienceItem title={'Software Developer Intern'}
+            <ExperienceItem title={'Software Engineer Intern'}
                             date={'May 2019 - Aug 2019'}
                             logoImgPath={'/company-logos/netapp-logo.png'}
                             company={'NetApp'}
-                            blurb={'This summer, I\'ll be working with NetApp\'s StorageGRID team. '}
+                            blurb={'During my time as a Software Engineer for NetApp\'s StorageGRID, I implemented new features that aid StorageGRID integration with third-party services as well as bug fixes within the main storage component. Technologies used are C++, Go and Ruby for the backend, and JavaScript and angular on the frontend.'}
             />
             <Divider/>
 
@@ -30,7 +29,7 @@ const Experience = () => (
                             date={'May 2018 - Dec 2018'}
                             logoImgPath={'/company-logos/copperleaf-logo.png'}
                             company={'Copperleaf'}
-                            blurb={'Worked as a Software Developer on Copperleaf\'s Predictive Analytics team where I developed application backend in C#, crafted database changes in SQL, and designed application frontend in TypeScript.'}
+                            blurb={'Worked as a Software Developer on Copperleaf\'s Predictive Analytics team where I implemented customization of analytics through custom entities as well as a customer-specific feature. Developed application backend in C#, crafted database changes in SQL, and designed frontend in TypeScript.'}
             />
             <Divider/>
 
