@@ -38,7 +38,7 @@ const Experience = () => (
                             date={'Jan 2017 - Aug 2017'}
                             logoImgPath={'/company-logos/samsung-logo.png'}
                             company={'Samsung'}
-                            blurb={'As a Support Engineer, I collaborated with developers to troubleshoot and debug client issues, helped improve workflows with Android apps and created Android apps to showcase Samsung MDM SDKs.'}
+                            blurb={'As a Support Engineer, I collaborated with developers to troubleshoot and debug client issues, improved workflows with Android apps and created Android apps to showcase Samsung MDM SDKs.'}
             />
             <Divider/>
 
@@ -46,7 +46,7 @@ const Experience = () => (
                             date={'Sep 2016 - Dec 2016'}
                             logoImgPath={'/company-logos/ubc-logo.png'}
                             company={'UBC'}
-                            blurb={'Assisted in teaching a second year Computer Science course: Software Construction. Held office hours, programming labs and taught students about Object-oriented programming in Java. '}
+                            blurb={'Assisted in teaching a second year Computer Science course: Software Construction. Held office hours, programming labs and taught students Object-oriented programming in Java. '}
             />
         </Content>
     </Layout>

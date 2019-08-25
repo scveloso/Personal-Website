@@ -59,11 +59,11 @@ const Jabchr = () => (
             <h1>Projects</h1>
             <h2>JABC HR System</h2>
             <p>In the Spring of 2019, I took a course at UBC called CPSC 319 - Software Engineering Project. This course
-            had me working on a project specified by a real-world client - Junior Association BC (JABC). JABC is a registered charity that aims to provide education programs for youth.
+            had me working on a project specified by Junior Association BC (JABC). JABC is a registered charity that aims to provide education programs for youth.
             As such, JABC has various employees with various roles and their HR team calls for an HR system to help them conduct HR administration. This is where my team and I come in.</p>
             <h3>My Contribution</h3>
             <ul>
-                <li>Crafted database schema design to support client features (among which are employee history, customizable performance reviews and variable account priviledges).</li>
+                <li>Crafted database schema design to support client features (among which are employee history, customizable performance reviews and variable account privileges).</li>
                 <li>Wrote backend services, wrote stored procedures to support backend services accessing database, and wrote frontend React components and pages.</li>
                 <li>Created completely customizable React table component to support completely customizable performance reviews and work plans.</li>
             </ul>
